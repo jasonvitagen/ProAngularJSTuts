@@ -5,99 +5,28 @@
 	<title>Sports Store</title>
 	<link rel="stylesheet" href="/css/foundation.min.css">
 	<script src="/js/angular.js"></script>
+	<script src="/js/underscore-min.js"></script>
 	<script>
-		angular.module('sportsStore', []);
+		angular.module('sportsStore', ['customFilters']);
 	</script>
 	<script src="controllers/sportsStoreController.js"></script>
+	<script src="controllers/productListController.js"></script>
+	<script src="filters/customFilters.js"></script>
+
+	<style>
+		.side-nav a.active { font-weight: bold; }
+	</style>
+
 </head>
 <body ng-controller="sportsStoreCtrl">
-	<div class="row">
-	  <div class="large-12 columns">
-	   
-	    <div class="row">
-	      <div class="large-12 columns">
-	
-	        <nav class="top-bar" data-topbar>
-	          <ul class="title-area">
-	             
-	            <li class="name">
-	              <h1>
-	                <a href="#">
-	                  Sports Store
-	                </a>
-	              </h1>
-	            </li>
-	            <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-	          </ul>
-	       
-	          
-	        </nav>
-	         
-	      </div>
-	    </div>
-	
-	   
-	
-	    <div class="row">
-	
-	 
-	
-	      <div class="large-4 small-12 columns">
-	
-	        <ul class="side-nav">
-	          <li><a href="#">Link 1</a></li>
-	          <li><a href="#">Link 2</a></li>
-	          <li><a href="#">Link 3</a></li>
-	          <li><a href="#">Link 4</a></li>
-	        </ul>
-	
-	      </div>
-	
-	   
-	
-	
-	   
-	
-	      <div class="large-8 columns">
-	        <div class="row">
-	
-			  <br>
 
-	          <div class="large-6 small-6 columns" ng-repeat="product in data.products">
-	            <div class="panel">
-	              <h5>{{ product.name }}</h5>
-	              <h6>{{ product.description }}</h6>
-	              <h6 class="subheader">{{ product.price | currency }}</h6>
-	            </div>
-	          </div>
-	
-	          
-	          </div>
-	        </div>
-	
-	 
-	      </div>
-	    </div>
-	
-	
-	   
-	
-	    <footer class="row">
-	      <div class="large-12 columns"><hr/>
-	        <div class="row">
-	
-	          <div class="large-6 columns">
-	            <p>© Sports Store</p>
-	          </div>
-	
-	        </div>
-	      </div>
-	    </footer>
-	
-	   
-	
-	  </div>
+	<div class="row" ng-show="data.error">
+		<div class="large-12 columns">
+			<span class="label">{{ data.error }}</span>
+		</div>
 	</div>
+
+	<ng-include src="'views/productList.html'"></ng-include>
 	
 </body>
 </html>
