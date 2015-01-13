@@ -1,0 +1,664 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"crawledArticle"
+			],
+			[
+				"is",
+				"isAdmin"
+			],
+			[
+				"Cra",
+				"CrawledArticleModel"
+			],
+			[
+				"CrawledArti",
+				"CrawledArticleModel"
+			],
+			[
+				"cra",
+				"crawledArticleSchema"
+			],
+			[
+				"asyn",
+				"asyncStoreProcedures"
+			],
+			[
+				"pending",
+				"pendingConfirmationArticlesInZsetId"
+			],
+			[
+				"pend",
+				"pendingConfirmation"
+			],
+			[
+				"saveArticle",
+				"saveArticleIdToPendingConfirmationArticlesInList"
+			],
+			[
+				"conta",
+				"containerElement"
+			],
+			[
+				"web",
+				"webFrontIndexConfig"
+			],
+			[
+				"off",
+				"offsetHeight"
+			],
+			[
+				"scro",
+				"scrollTop"
+			],
+			[
+				"footer",
+				"footerOffsetYBottom"
+			],
+			[
+				"webfront",
+				"webfrontIndexConfig"
+			],
+			[
+				"bottom",
+				"bottomRelatedArticlesAmount"
+			],
+			[
+				"side",
+				"sidebarRelatedArticlesAmount"
+			],
+			[
+				"ar",
+				"articlesInSetId"
+			],
+			[
+				"articles",
+				"articlesId"
+			],
+			[
+				"auth",
+				"authMiddlewares"
+			],
+			[
+				"cate",
+				"categoryArticlesId"
+			],
+			[
+				"RenRen",
+				"RenrenStrategy"
+			],
+			[
+				"pass",
+				"passReqToCallback"
+			],
+			[
+				"getAr",
+				"getArticleById"
+			],
+			[
+				"ke",
+				"keyNames"
+			],
+			[
+				"bask",
+				"basketQuantities"
+			],
+			[
+				"ang",
+				"angular-partial-views"
+			],
+			[
+				"font",
+				"font-weight"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/jason/Documents/Pro AngularJS Tuts/tuts/tut1/index.html",
+			"settings":
+			{
+				"buffer_size": 1255,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jason/Documents/Pro AngularJS Tuts/tuts/tut1/todo.json",
+			"settings":
+			{
+				"buffer_size": 230,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"selected_items":
+		[
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"ssejs",
+				"Set Syntax: EJS (<% and %>)"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"pcin",
+				"Package Control: Install Package"
+			],
+			[
+				"ss js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss json",
+				"Set Syntax: JSON"
+			],
+			[
+				"ssj",
+				"Set Syntax: JSON"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"ssjade",
+				"Set Syntax: Jade"
+			],
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss h",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssjaa",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jason/Documents/Pro AngularJS Tuts/tuts/tut1/script.js",
+		"/Users/jason/Documents/Pro AngularJS Tuts/localserver/Gruntfile.js",
+		"/Users/jason/Documents/Pro AngularJS Tuts/haha.html",
+		"/Users/jason/Documents/Pro AngularJS Tuts/Tut1/server.js",
+		"/Users/jason/Documents/ann/models/mongo/CrawledArticle.js",
+		"/Users/jason/Documents/ann/models/mongo/CategoryArticles.js",
+		"/Users/jason/Documents/ann/models/mongo/Article.js",
+		"/Users/jason/Documents/ann/routes/admin.js",
+		"/Users/jason/Documents/ann/models/mongo/articlePrePostSaveBehaviors.js",
+		"/Users/jason/Documents/ann/helpers/inputSanitizer.js",
+		"/Users/jason/Documents/ann/public/javascripts/ckeditor/plugins/youtube/plugin.js",
+		"/Users/jason/Documents/ann/routes/article.js",
+		"/Users/jason/Documents/ann/routes/articleRoutesBehaviors.js",
+		"/Users/jason/Documents/ann/views/layouts/article/create/scripts.ejs",
+		"/Users/jason/Documents/ann/views/article/create.ejs",
+		"/Users/jason/Documents/ann/views/auth/profile.ejs",
+		"/Users/jason/Documents/ann/models/redis/articleSanitizer.js",
+		"/Users/jason/Documents/ann/routes/category.js",
+		"/Users/jason/Documents/ann/views/article/view.ejs",
+		"/Users/jason/Documents/ann/models/redis/Article.js",
+		"/Users/jason/Documents/ann/config/webfront/article.js",
+		"/Users/jason/Documents/ann/public/stylesheets/style.css",
+		"/Users/jason/Documents/ann/config/webfront/index.js",
+		"/Users/jason/Documents/ann/config/redis.js",
+		"/Users/jason/Documents/ann/config/auth.js",
+		"/Users/jason/Documents/ann/views/layouts/bodyWrapper.ejs",
+		"/Users/jason/Documents/ann/setup/webFront.js",
+		"/Users/jason/Documents/ann/views/article/sidebar.ejs",
+		"/Users/jason/Documents/ann/models/redis/Category.js",
+		"/Users/jason/Documents/ann/config/webfront/categories.js",
+		"/Users/jason/Documents/ann/views/category/articles.ejs",
+		"/Users/jason/Documents/ann/views/index.ejs",
+		"/Users/jason/Documents/ann/routes/index.js",
+		"/Users/jason/Documents/ann/views/article/my-articles.ejs",
+		"/Users/jason/Documents/ann/app.js",
+		"/Users/jason/Documents/ann/views/admin/pending-confirmation-articles.ejs",
+		"/Users/jason/Documents/ann/routes/middlewares/auth.js",
+		"/Users/jason/Documents/ann/npm-debug.log",
+		"/Users/jason/Documents/ann/models/mongo/User.js",
+		"/Users/jason/Documents/ann/public/javascripts/script.js",
+		"/Users/jason/Documents/ann/views/auth/local-signup.ejs",
+		"/Users/jason/Documents/ann/views/auth/local-login.ejs",
+		"/Users/jason/Documents/ann/public/stylesheets/gridism.css",
+		"/Users/jason/Documents/ann/views/layouts/headerWrapper.ejs",
+		"/Users/jason/Documents/ann/views/layouts/stylesheets.ejs",
+		"/Users/jason/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jason/Documents/ann/routes/auth.js",
+		"/Users/jason/Documents/ann/setup/passport.js",
+		"/Users/jason/Documents/ann/views/layouts/footerWrapper.ejs",
+		"/Users/jason/Documents/ann/views/layouts/footer.ejs",
+		"/Users/jason/Documents/ann/setup/webfront.js",
+		"/Users/jason/Documents/ann/setup/viewsVariables.js",
+		"/Users/jason/Documents/ann/views/articles/view.ejs",
+		"/Users/jason/Documents/ann/views/articles/my-articles.ejs",
+		"/Users/jason/Documents/ann/views/articles/create.ejs",
+		"/Users/jason/Documents/ann/package.json",
+		"/Users/jason/Documents/ann/setup/redisClient.js",
+		"/Users/jason/Library/Application Support/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
+		"/Users/jason/Documents/ann/routes/users.js",
+		"/Users/jason/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/jason/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/jason/Documents/ann/views/layouts/header.ejs",
+		"/Users/jason/Documents/ann/views/layouts/article/header.ejs",
+		"/Users/jason/Documents/ann/views/layouts/article/stylesheets.ejs",
+		"/Users/jason/Library/Application Support/Sublime Text 2/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/jason/Library/Application Support/Sublime Text 2/Packages/User/Emmet.sublime-settings",
+		"/Users/jason/Documents/ann/views/layouts/stylesheets",
+		"/Users/jason/Desktop/untitled.html",
+		"/Users/jason/Documents/ann/models/User.js",
+		"/Users/jason/Documents/CoffeeGameWebsite/app.js",
+		"/Users/jason/Documents/CoffeeGameWebsite/node_modules/jade/jade.js",
+		"/Users/jason/Desktop/generateVariantsMap.js",
+		"/Users/jason/Desktop/Momoro/index.html",
+		"/Users/jason/Downloads/AchicaUIPrototypes/routes/index.js",
+		"/Users/jason/Downloads/AchicaUIPrototypes/public/javascripts/checkoutBasket.js",
+		"/Users/jason/Downloads/AchicaUIPrototypes/views/checkoutbasket.jade",
+		"/Users/jason/Downloads/AngularJS-Tuts-on-Nodejs 2/app.js",
+		"/Users/jason/Downloads/AngularJS-Tuts-on-Nodejs/public/data/phones.json",
+		"/Users/jason/Downloads/AngularJS-Tuts-on-Nodejs/routes/index.js",
+		"/Users/jason/Downloads/AngularJS-Tuts-on-Nodejs/app.js",
+		"/Users/jason/Downloads/AngularJS-Tuts-on-Nodejs/public/haha.html",
+		"/Users/jason/Downloads/ShoppingCart 2/ShoppingCart/partials/product.htm",
+		"/Users/jason/Downloads/Draggable Tiles 3/views/default.htm",
+		"/Users/jason/Desktop/projectz/app.js",
+		"/Users/jason/Downloads/Style Guide/index.html",
+		"/Users/jason/Downloads/syntaxhighlighter_3.0.83/scripts/shCore.js",
+		"/Users/jason/Downloads/syntaxhighlighter_3.0.83/scripts/shBrushDelphi.js",
+		"/Users/jason/Downloads/syntaxhighlighter_3.0.83/scripts/shBrushAppleScript.js",
+		"/Users/jason/Downloads/plain/documentation/js/script.js",
+		"/Users/jason/Desktop/index.html",
+		"/Users/jason/Desktop/script.js",
+		"/Users/jason/Downloads/Draggable Tiles 3/views/layout.jade",
+		"/Users/jason/Desktop/projectz/views/layout.jade",
+		"/Users/jason/Desktop/projectz/homeroutes/index.js",
+		"/Users/jason/Desktop/projectz/node_modules/blacktheme/index.js",
+		"/Users/jason/Desktop/projectz/home/index.js",
+		"/Users/jason/Desktop/projectz/routes/index.js",
+		"/Users/jason/Desktop/projectz/test/index.js",
+		"/Users/jason/Downloads/Draggable Tiles 3/public/javascripts/customtileseditor/controllers/tilesctrl.js",
+		"/Users/jason/Downloads/Draggable Tiles/public/javascripts/customtileseditor.js",
+		"/Users/jason/Downloads/Draggable Tiles/public/javascripts/customtileseditor/controllers/customergroupsctrl.js",
+		"/Users/jason/Downloads/Draggable Tiles/public/javascripts/customtileseditor/controllers/tilesctrl.js",
+		"/Users/jason/Downloads/Draggable Tiles 3/app.js",
+		"/Users/jason/Downloads/Draggable Tiles 2/public/javascripts/customtileseditor.js",
+		"/Users/jason/Downloads/Draggable Tiles 2/public/javascripts/customtileseditor/controllers/setfixedtilesctrl.js",
+		"/Users/jason/Downloads/Draggable Tiles 2/public/javascripts/customtileseditor/views/setfixedtilesview.js",
+		"/Users/jason/Downloads/Draggable Tiles/views/customtileseditor.jade",
+		"/Users/jason/Downloads/Draggable Tiles/routes/index.js",
+		"/Users/jason/Downloads/Draggable Tiles/public/javascripts/customtileseditor/views/tilesview.js",
+		"/Users/jason/Downloads/Draggable Tiles/public/stylesheets/style2.css",
+		"/Users/jason/Downloads/Draggable Tiles/public/stylesheets/draggabletiles.css",
+		"/Users/jason/Downloads/Draggable Tiles/public/javascripts/draggabletiles.js",
+		"/Users/jason/Downloads/Draggable Tiles/public/stylesheets/bootstrap.css",
+		"/Users/jason/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jason/Documents/jqgridtuts/public/css/style.css",
+		"/Users/jason/Documents/jqgridtuts/public/extjs/resources/ext-theme-classic/ext-theme-classic-all.css",
+		"/Users/jason/Documents/senchajs and jqgrid tuts/index.html",
+		"/Users/jason/Documents/senchajs and jqgrid tuts/js/jquery.js",
+		"/Users/jason/Downloads/jqGrid-master/jquery.js",
+		"/Users/jason/Documents/senchajs and jqgrid tuts/js/jquery.jqGrid.js",
+		"/Users/jason/Documents/basic express site/app.js",
+		"/Users/jason/Desktop/regexp1.js",
+		"/Users/jason/Documents/JS Closure Tut/jsclosuretut3.js",
+		"/Users/jason/Desktop/closuretut.js",
+		"/Users/jason/Desktop/JSON Viewer/jsonviewer.html",
+		"/Users/jason/Desktop/JSON Viewer - Chrome Extension/content.js",
+		"/Users/jason/Desktop/My Casper/mycasper.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/jason/Documents/ann",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"done",
+			"description",
+			"done",
+			"description",
+			"createServer",
+			"order",
+			"authModdlewares",
+			"bodyparser",
+			"console",
+			"unique",
+			"config.show",
+			"config.",
+			"cke_dialog",
+			"responsive",
+			"config.re",
+			"youtube_older",
+			"responsive",
+			"config",
+			"id",
+			"content",
+			"inputsanitizer",
+			"category.Category",
+			"Category.",
+			"category.",
+			"category",
+			"Category",
+			"category",
+			"Category",
+			"category",
+			"getArticlesByIdList",
+			"article",
+			"Article",
+			"vie' : '影片',\n	'life' : '生活',\n	'food' : '食物',\n	'psychology' : '心理',\n	'health' : '健康',\n	'fashion' : '时尚',\n	'love' : '爱情',\n	'entertainment' : '娱乐',\n	'funny' : '爆笑',\n	'touching' : '感动',\n	'animal' : '动物',\n	'amazing' : '惊奇',\n	'earth' : '地球',\n	'society' : '社会',\n	'history' : '历史',\n	'art' : '艺术',\n	'building' : '建筑',\n	'design' : '设计',\n	'photography' : '摄影',\n	'performance' : '表演',\n	'music' : '音乐',\n	'dancing' : '跳舞',\n	'news' : '新闻',\n	'tourism' : '旅游',\n	'girls' : '女性专区",
+			": '",
+			"	: '",
+			": '",
+			": 'movie',",
+			"param1",
+			"param",
+			"more",
+			"isadmin",
+			"console.log(re",
+			"userArticlesId",
+			"my-",
+			"mama",
+			"checkIsArticleIdAvailableInPendingArticlesZset",
+			"getArticleById",
+			"}\n",
+			"getArticleById",
+			"getArticle",
+			"getArticleById",
+			"getarticlebyid",
+			"getarticle",
+			"zrank",
+			"series",
+			"();",
+			"series",
+			"zrank",
+			"callback",
+			"saveForPendingConfirmation",
+			"setup",
+			"getAllPendingConfirmationArticles",
+			"parallel",
+			"ladd",
+			"saveArticleToArticleId",
+			"aticle-list",
+			"input",
+			",0 1px rgba(0,0,0,0.05)",
+			"auth-",
+			"bottom-related-articles",
+			"wrapper",
+			"60px",
+			"index",
+			"span",
+			"message",
+			"》》",
+			"eaefef",
+			"article-view",
+			"margin",
+			"div",
+			"h2",
+			"settimeout",
+			"setTimeout",
+			"scrolltoplistener",
+			"var webFrontIndexConfig = require('../config/webFront/index');\n",
+			"/profile",
+			"profile",
+			"document",
+			"Document",
+			"document",
+			"<%=",
+			"</d",
+			"</a",
+			"</d",
+			"</di",
+			"<a h",
+			"<div",
+			"<div ",
+			"getArticlesByIdList",
+			"json",
+			"webfront",
+			"registerScrollTopListener",
+			"offsetHeight",
+			"getElementsById",
+			"footer",
+			"[0]",
+			"TagName",
+			"-------------------------------- */\n",
+			"*-------------------------------- */\n",
+			"h2",
+			"/article/<%= article.id",
+			"prev-and-next",
+			"mount = viewVariables.view.relatedArticles.sidebar.amount,\n				prevAndNextRelatedArticlesAmount = viewVariables.view.relatedArticles.prevAndNext.amount,\n				bottomRelatedArticlesAmount = viewVariables.view.relatedArticles.bottom.amount,\n				totalRelatedArticles = sidebarRelatedArticlesAmount + prevAndNextRelatedArticlesAmount + bottomRelatedArticlesAmount",
+			"this",
+			"(app)",
+			"getarticlesbyidl",
+			"getarticlesbyidls",
+			"SRANDMEMBER",
+			"getArticlesByIdList",
+			"header",
+			"configure",
+			"localhost",
+			"callbackURL",
+			"localhost",
+			"local",
+			"localhos",
+			"Google",
+			"google"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ID : 'e834917ff1c9450486bc878dae9ded48',\n		clientSecret : '0940202e5a16472b840911026b937f30',\n		callbackURL : 'http"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jason/Documents/Pro AngularJS Tuts/tuts/tut1/index.html",
+					"settings":
+					{
+						"buffer_size": 1255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								997,
+								997
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/jason/Documents/Pro AngularJS Tuts/tuts/tut1/todo.json",
+					"settings":
+					{
+						"buffer_size": 230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								44
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/jason/Documents/senchajs and jqgrid tuts/1.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true
+}
