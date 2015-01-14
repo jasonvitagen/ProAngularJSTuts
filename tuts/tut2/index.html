@@ -3,15 +3,37 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Sports Store</title>
-	<link rel="stylesheet" href="/css/foundation.min.css">
+	<link rel="stylesheet" href="/css/bootstrap.css">
 	<script src="/js/angular.js"></script>
 	<script src="/js/underscore-min.js"></script>
 	<script>
-		angular.module('sportsStore', ['customFilters']);
+		angular
+			.module('sportsStore', ['customFilters', 'cart', 'ngRoute'])
+			.config(['$routeProvider', function ($routeProvider) {
+				$routeProvider
+					.when('/products', {
+						templateUrl : 'views/productList.html'
+					})
+					.when('/checkout', {
+						templateUrl : 'views/checkoutSummary.html'
+					})
+					.when('/complete', {
+						templateUrl : 'views/thankYou.html'
+					})
+					.when('/placeorder', {
+						templateUrl : 'views/placeorder.html'
+					})
+					.otherwise({
+						templateUrl : 'views/productList.html'
+					});
+			}]);
 	</script>
 	<script src="controllers/sportsStoreController.js"></script>
 	<script src="controllers/productListController.js"></script>
 	<script src="filters/customFilters.js"></script>
+	<script src="components/cart/cart.js"></script>
+	<script src="ngmodules/angular-route.js"></script>
+	<script src="controllers/checkoutController.js"></script>
 
 	<style>
 		.side-nav a.active { font-weight: bold; }
@@ -19,14 +41,22 @@
 
 </head>
 <body ng-controller="sportsStoreCtrl">
-
-	<div class="row" ng-show="data.error">
-		<div class="large-12 columns">
-			<span class="label">{{ data.error }}</span>
+	<div class="container">
+		<div class="row">
+			<div class="navbar navbar-inverse">
+				<a class="navbar-brand" href="index.html">Sports Store</a>
+				<cart-summary/>
+			</div>
+			
+			<div class="alert alert-danger" ng-show="data.error">
+				<div class="col-sm-12">
+					<span class="label">{{ data.error }}</span>
+				</div>
+			</div>
 		</div>
-	</div>
+		
+		<ng-view/>
 
-	<ng-include src="'views/productList.html'"></ng-include>
-	
+	</div>
 </body>
 </html>

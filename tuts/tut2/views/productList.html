@@ -1,81 +1,37 @@
-<div class="row" ng-controller="productListCtrl" ng-hide="data.error">
- 	<div class="large-12 columns">
-   
-		<div class="row">
-		  <div class="large-12 columns">
+<div class="panel panel-default row" ng-controller="productListCtrl" ng-hide="data.error">
+
 	
-			<nav class="top-bar" data-topbar>
-			  <ul class="title-area">
-				 
-				<li class="name">
-				  <h1>
-					<a href="">
-					  Sports Store
-					</a>
-				  </h1>
-				</li>
-				<li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-			  </ul>
-		   
-			  
-			</nav>
-			 
-		  </div>
+	<div class="col-sm-3">
+
+		<div class="btn-group-vertical">
+			<a href="#" class="btn btn-default" ng-class="getCategoryClass(category)" ng-click="selectCategory(category)" ng-repeat="category in data.products | orderBy:'category' | unique:'category'">{{ category }}</a>
 		</div>
-	
 
-	
+	</div>
+		
+	<div class="col-sm-9">
+		<div ng-repeat="product in data.products | filter:categoryFilterFn | range:selectedPage:pageSize">
+			<div class="panel">
+				<h5>{{ product.name }}</h5>
+				<h6>{{ product.description }}</h6>
+				<h6>{{ product.category }}</h6>
+				<h6 class="subheader">{{ product.price | currency }}</h6>
+				<button class="btn btn-default" ng-click="addProductToCart(product)">Add To Cart</button>
+			</div>
+		</div>
+
 		<div class="row">
-	
-			<div class="large-4 small-12 columns">
-
-				<ul class="side-nav">
-					<li ng-repeat="category in data.products | orderBy:'category' | unique:'category'">
-						<a href="#" ng-class="getCategoryClass(category)" ng-click="selectCategory(category)">{{ category }}</a>
+			<div class="col-sm-12">
+				<ul class="pagination">
+					<li ng-repeat="page in data.products | filter:categoryFilterFn | pageCount:pageSize" ng-class="getPaginationClass(page)">
+						<a href="#" ng-click="selectPage(page)">{{ page }}</a>
 					</li>
 				</ul>
-
 			</div>
-		
-			<div class="large-8 small-12 columns">
-				<div class="row">
-				<br>
-					<div class="large-6 small-6 columns" ng-repeat="product in data.products | filter:categoryFilterFn | range:selectedPage:pageSize">
-						<div class="panel">
-							<h5>{{ product.name }}</h5>
-							<h6>{{ product.description }}</h6>
-							<h6>{{ product.category }}</h6>
-							<h6 class="subheader">{{ product.price | currency }}</h6>
-						</div>
-					</div>
-				</div>
-			</div>
-	
 		</div>
+
 	</div>
 
-	<div class="row">
-		<div class="large-12 columns">
-			<ul class="pagination">
-				<li ng-repeat="page in data.products | filter:categoryFilterFn | pageCount:pageSize" ng-class="getPaginationClass(page)">
-					<a href="#" ng-click="selectPage(page)">{{ page }}</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-   
-
-	<footer class="row">
-	  <div class="large-12 columns"><hr/>
-		<div class="row">
-
-		  <div class="large-6 columns">
-			<p>© Sports Store</p>
-		  </div>
-
-		</div>
-	  </div>
-	</footer>
 
    
 
